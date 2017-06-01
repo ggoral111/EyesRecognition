@@ -14,7 +14,7 @@ public class Main {
 			Integer threadpool = 16;
 			
 			ImageProcessing ip = new ImageProcessing();
-			ip.multithreadPhotoTagging(61, "D:/EyesRecognition_photos/D_0ccf910f7fafc450a7c23785278eec2a/2016-03-03", "/", 2, fileExtensionsToOmmit, threadpool);
+			ip.multithreadPhotoTagging(201, "D:/EyesRecognition_photos/D_1bac6917a45b46871670c14f127f4bb9/2016-03-08", "/", 2, fileExtensionsToOmmit, threadpool);
 		} 
 		catch (IOException e) 
 		{
