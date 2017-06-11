@@ -7,14 +7,14 @@ package model;
  *
  */
 public class EyeInfo {
-	
+
 	String dir;
 	String name;
 	String side;
 	Integer phase;
 	Double[] histogram;
 	Integer[] size;
-	
+
 	/**
 	 * A constructor of EyeInfo class.
 	 * 
@@ -25,8 +25,7 @@ public class EyeInfo {
 	 * @param histogram	the vector which stores information about histogram data
 	 * @param size		the vector which stores dimensions of an image
 	 */
-	public EyeInfo(String dir, String name, String side, Integer phase, Double[] histogram, Integer[] size) 
-	{
+	public EyeInfo(String dir, String name, String side, Integer phase, Double[] histogram, Integer[] size) {
 		this.dir = dir;
 		this.name = name;
 		this.side = side;
@@ -34,29 +33,29 @@ public class EyeInfo {
 		this.histogram = histogram;
 		this.size = size;
 	}
-	
+
 	/**
 	 * Gets the vector which stores information about histogram data.
 	 * 
-	 * @return	the vector which stores information about histogram data
+	 * @return the vector which stores information about histogram data
 	 */
 	public Double[] getHistogram() {
 		return histogram;
 	}
-	
+
 	/**
 	 * Gets the directory name.
 	 * 
-	 * @return	the directory name
+	 * @return the directory name
 	 */
 	public String getDir() {
 		return dir;
 	}
-	
+
 	/**
 	 * Gets the name of an image.
 	 * 
-	 * @return	the name of an image
+	 * @return the name of an image
 	 */
 	public String getName() {
 		return name;
@@ -65,16 +64,16 @@ public class EyeInfo {
 	/**
 	 * Gets the side of an eye.
 	 * 
-	 * @return	the side of an eye
+	 * @return the side of an eye
 	 */
 	public String getSide() {
 		return side;
 	}
-	
+
 	/**
 	 * Gets the eye exposure phase.
 	 * 
-	 * @return	the eye exposure phase
+	 * @return the eye exposure phase
 	 */
 	public Integer getPhase() {
 		return phase;
@@ -83,10 +82,10 @@ public class EyeInfo {
 	/**
 	 * Gets the vector which stores dimensions of an image.
 	 * 
-	 * @return	the vector which stores dimensions of an image
+	 * @return the vector which stores dimensions of an image
 	 */
 	public Integer[] getSize() {
 		return size;
 	}
-	
+
 }
